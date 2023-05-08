@@ -1,0 +1,64 @@
+/*Website Colors: HEX
+Blue: #333366
+White: #FFFFFF
+*/
+body {
+  background-color: rgba(33, 63, 90, 1);
+  font-family: Helvetica;
+  color: #FFFFFF;
+}
+.bg-custom {
+  font-family: Helvetica;
+  color: #FFFFFF;
+  margin-left:1%;
+  margin-right:1%;
+}
+.Logo img{
+  width: 33%;
+}
+.navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+.bi {
+  color:#FFFFFF;
+  padding-left:10px;
+}
+picture {
+  width:100%;
+  height: auto;
+  object-fit: cover;
+}
+#pdf {
+  object-position: center;
+}
+.carousel {
+  width:500px;
+}
+/* unvisited link */
+a:link {
+  color: rgba(33, 63, 90, 1);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(33, 63, 90, 1);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(33, 63, 90, 0.8);
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  text-decoration: underline;
+}
+footer, #footer_text {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+}
